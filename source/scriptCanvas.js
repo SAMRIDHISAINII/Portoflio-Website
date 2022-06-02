@@ -1,4 +1,4 @@
-// ----------------- create a shooting star background here ------------------------
+
 class shootingStar {
     constructor(param) {
         this.radius = param.radius;
@@ -120,6 +120,8 @@ window.space = {
         let i = space.shootNo;
         let div = Math.sqrt(2);
         let change = space.shootStar[i].speed / div;
+        
+        
         if (!space.shootStar[i].out) {
             let x = space.shootStar[i].x;
             let y = space.shootStar[i].y;
@@ -136,6 +138,8 @@ window.space = {
             space.shootStar[i].radius += space.shootRadGrad;
             space.shootStar[i].opacity += space.shootOpGrad;
         }
+        
+        
         if (
             space.shootStar[i].x <
                 space.shootStar[i].xinit - space.shootLength + 10 ||
@@ -144,6 +148,8 @@ window.space = {
         ) {
             space.shootStar[i].out = true;
         }
+        
+        
         if (space.shootStar[i].out) {
             space.shootStar[i].out = false;
             space.shootStar[i].x = space.shootStar[i].xinit;
@@ -151,13 +157,18 @@ window.space = {
             // while (!space.erase) {
             //     space.eraseShooters();
             // }
+            
             // space.erase = false;
             // space.shootCheck = 0;
             space.shootNo += 1;
             space.renderShooters();
         }
         window.requestAnimationFrame(space.animShooters);
+        
     },
+    
+    
+    
     renderShooters: function () {
         // for (let i = 0; i < this.shootNo; i++) {
         let [xt, yt] = this.genRandCo(this.xcorShoot, this.ycorShoot);
@@ -219,6 +230,8 @@ window.spectrum = {
     lineAmp: [90, 80, 100],
     lineWl: [400, 300, 450],
     lineFreq: [0.0008, 0.0008, 0.005],
+    
+    
     lineStep: [1, 1.2, 4],
     lineTgrad: [0.0009, 0.002, 0.002],
     lineWidth: [2.3, 1, 4],
@@ -275,6 +288,14 @@ window.spectrum = {
             amp * func((modPi * (x - t)) / wl) * func(modPi * t * freq)
         );
     },
+//     waveFunc: function (line, x) {
+//         const { amp, wl, func, t, freq } = line;
+//         let modPi = 2 * Math.PI;
+//         return (
+//             // amp * func((2 * Math.PI * x) / wl - (2 * Math.PI * t * freq) / wl)
+//             amp * func((modPi * (x - t)) / wl) * func(modPi * t * freq)
+//         );
+//     },
     render: function () {
         const { ctx, lines, canHeight, waveFunc, lineNum } = spectrum;
         spectrum.setBg();
@@ -296,12 +317,21 @@ window.spectrum = {
         }
     },
     setAnimation: function (val) {
+        
         if (spectrum.animate !== val) {
             spectrum.animate = val;
             spectrum.render();
         }
     },
 };
+// setAnimation: function (val) {
+//         if (spectrum.animate !== val) {
+//             spectrum.animate = val;
+//             spectrum.render();
+//         }
+//     },
+// };
+
 
 $(document).ready(() => {
     // space.init();
@@ -311,6 +341,9 @@ $(document).ready(() => {
     // setTimeout(() => {
     //     space.eraseShooters();
     // }, 4000);
+    
+    
+    
     spectrum.init();
     spectrum.createLines();
     spectrum.render();
