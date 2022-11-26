@@ -1,0 +1,62 @@
+[
+    {
+        "type": "frontend",
+        "technologies": [
+            {
+                "title": "React",
+                "image": "devicon-react-original"
+            },
+            {
+                "title": "Vue",
+                "image": "devicon-vuejs-plain"
+            },
+           
+            {
+                "title": "Javascript (ES6)",
+                "image": "devicon-javascript-plain"
+            },
+            {
+                "title": "HTML5",
+                "image": "devicon-html5-plain"
+            },
+            {
+                "title": "CSS3",
+                "image": "devicon-css3-plain"
+            },
+            {
+                "title": "Tailwind",
+                "image": "devicon-tailwindcss-plain"
+            }
+        ]
+    },
+    {
+        "type": "backend",
+        "technologies": [
+            {
+                "title": "Python",
+                "image": "devicon-python-plain"
+            },
+            {
+                "title": "Node",
+                "image": "devicon-nodejs-plain"
+            },
+            {
+                "title": "Java",
+                "image": "devicon-java-plain"
+            },
+            {
+                "title": "MongoDB",
+                "image": "devicon-mongodb-plain"
+            }
+        ]
+    },
+    {
+        "type": "tools",
+        "technologies": [
+            {
+                "title": "Figma",
+                "image": "devicon-figma-plain"
+            }
+        ]
+    }
+]

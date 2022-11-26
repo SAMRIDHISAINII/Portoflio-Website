@@ -1,0 +1,27 @@
+[
+    {
+        "Image": "./assets/images/work1.png",
+        "Title": "Reading Place",
+        "Description": "It is a Book Store web application where we can store, go and read books various types accordingly. Basically, MERN stack is used with CRUD functionality. ReactJS and material UI is used for frontend and Libraries for frontend are React Router Dom, MaterialUI Icons and Nodejs, ExpressJS, MongoDB is used for backend the libraries used are Mongoose and Nodemon. Each book is rendered as a single component and then when go to add products URL will be changed accordingly, we will put the link and add the book than it is added to database.",
+        "Sidenote": "",
+        "Github": "https://github.com/SAMRIDHISAINII/CryptoNotch",
+        "Tags": ["Reactjs", "MongoDB", "Expressjs", "Nodejs"]
+    },
+    {
+        "Image": "./assets/images/work2.png",
+        "Title": "CryptoNotch",
+        "Description": "A multiple website using coin gecko API styled using tailwind CSS for Frontend and Firebase as a backend. As it is a multipage website, so it also provides You the whole information with latest dark/white mode. This website provides you with the latest trends of the crypto currencies.",
+        "Sidenote": "",
+        "Github": "https://github.com/SAMRIDHISAINII/CryptoNotch",
+        "Tags": ["Reactjs","Firebase", "TailwindCSS"]
+       
+    },
+    {
+        "Image": "./assets/images/work3.png",
+        "Title": "Abstract Text Summarization",
+        "Description": "An abstractive text summarization model based on Transformer Decoder (GPT-2) using Google/Trax. It uses Kaggle dataset of inshort news",
+        "Sidenote": "",
+        "Github": "https://github.com/SAMRIDHISAINII/Abstract_text_summarization",
+        "Tags": ["Python", "GPT-2", "Kaggle", "Machine Learning"]
+    }
+]
