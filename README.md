@@ -5,12 +5,6 @@ This is my portfolio powered by Vue3, TailwindCSS, ThreeJS and AnimeJS.
 
 All of the features within this project are frontend only, there are no involvement with any backend frameworks or similar.
 
-View the production deployment of this project on [here](https://kuon-dev-portfolio.vercel.app)
-
-<h2 align="center">
-  <img src="./doc/preview.png" alt="preview" />
-  <br>
-</h2>
 
 ## Featrues 
 - Interactive 3D model and UI
@@ -99,15 +93,3 @@ I recommend using Vercel for deployment as it is simple and contains a lot of fe
 npm run build
 ```
 
-afterwards you will get a ZIP file, put the ZIP file up on the VPS server according to their relevant instructions.
-
----
-## License
-This project is MIT licensed.
-
-You can create your own project and modifying it freely without notifying me under these conditions
-- Add a link to this repository that can be easily found and visible in your page.
-- Do not use the 3d Model if you do not agree to the license conditions (CC Atribution). [Original Link](https://sketchfab.com/3d-models/voxel-web-development-50ad959d6c6b4799806c45bfa46ca550)
-- Do not use it for commercial usage.
-
-Check [LICENSE](./LICENSE) for additional details.
