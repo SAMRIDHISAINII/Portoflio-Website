@@ -12,8 +12,6 @@ All of the features within this project are frontend only, there are no involvem
 - Highly customizable with theme selector
 - Flexible responsive design 
 
-
-
 ---
 ## Customization
 ### New Page 
